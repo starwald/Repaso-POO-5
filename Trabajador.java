@@ -1,4 +1,6 @@
 interface Trabajador {
 
-    public void administrarMeds();
+    public double calcularSalario();
+    public void trabajar();
+    public void vacasiones();
 }
