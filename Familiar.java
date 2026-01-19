@@ -1,11 +1,9 @@
 public class Familiar extends Persona {
     private String parentesco;
-    private String telefonoContacto;
 
-    public Familiar(String parentesco, String telefonoContacto, String nombre, int edad, boolean genero, int numeroTel) {
+    public Familiar(String parentesco, String nombre, int edad, boolean genero, int numeroTel) {
         super(nombre, edad, genero, numeroTel);
         this.parentesco = parentesco;
-        this.telefonoContacto = telefonoContacto;
     }
 
     public String getParentesco() {
@@ -16,12 +14,12 @@ public class Familiar extends Persona {
         this.parentesco = parentesco;
     }
 
-    public String getTelefonoContacto() {
-        return telefonoContacto;
+    public int getTelefonoContacto() {
+        return numeroTel;
     }
 
-    public void setTelefonoContacto(String telefonoContacto) {
-        this.telefonoContacto = telefonoContacto;
+    public void setTelefonoContacto(int telefonoContacto) {
+        this.numeroTel = telefonoContacto;
     }
     
 }
