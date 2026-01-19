@@ -2,8 +2,8 @@ public class Cuidador extends Persona implements Trabajador {
     private String turno;
     private double salario;
 
-    public Cuidador(String turno, double salario, String nombre, int edad, boolean genero, int id) {
-        super(nombre, edad, genero, id);
+    public Cuidador(String turno, double salario, String nombre, int edad, boolean masculino, int id) {
+        super(nombre, edad, masculino, id);
         this.turno = turno;
         this.salario = salario;
     }

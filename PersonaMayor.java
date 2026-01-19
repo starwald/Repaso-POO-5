@@ -4,8 +4,8 @@ public class PersonaMayor extends Persona {
     private int habitacion;
 
 
-    public PersonaMayor(String diagnostico, boolean medicamentos, int habitacion, String nombre, int edad, boolean genero, int numeroTel) {
-        super(nombre, edad, genero, numeroTel);
+    public PersonaMayor(String diagnostico, boolean medicamentos, int habitacion, String nombre, int edad, boolean masculino, int numeroTel) {
+        super(nombre, edad, masculino, numeroTel);
         this.diagnostico = diagnostico;
         this.medicamentos = medicamentos;
         this.habitacion = habitacion;
