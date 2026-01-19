@@ -31,7 +31,7 @@ public class Main {
         Familiar familiar1 = new Familiar("Hijo", "Juan", 34, true, 10101010);
         agenda.agregarContacto(familiar1);
 
-        agenda.agendarVisita(familiar1, abuelita);
+        ControladorAgenda.agendarVisita(familiar1, abuelita);
 
         // se muestra en pantalla los contactos ingresados en la agenda
         System.out.println("\nREPORTE DE LA AGENDA");

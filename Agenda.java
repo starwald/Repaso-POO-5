@@ -16,9 +16,5 @@ public class Agenda {
             System.out.println("  Nombre: " + p.getNombre() + ", Edad: " + p.getEdad() + ", Teléfono: " + p.getNumeroTel());
         }
     }
-
-    public void agendarVisita(Familiar familiar, PersonaMayor paciente){
-        System.out.println("  se agendó la visita del familiar " + familiar.getNombre() + " al paciente " + paciente.getNombre());
-    }
     
 }
