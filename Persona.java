@@ -1,12 +1,12 @@
 public class Persona {
     
     // ATRIBUTOS
-    int id;
-    String nombre;
-    int edad;
-    boolean masculino;
-    int numeroTel;
-    int numHabitacion;
+    private int id;
+    private String nombre;
+    private int edad;
+    private boolean masculino;
+    private int numeroTel;
+    private int numHabitacion;
 
 
     // CONSTRUCTORES
@@ -20,6 +20,18 @@ public class Persona {
         this.masculino = masculino;
         this.numeroTel = numeroTel;
         this.id ++;
+    }
+
+    public String getNombre(){
+        return this.nombre;
+    }
+
+    public int getNumeroTel(){
+        return this.numeroTel;
+    }
+
+    public int getEdad(){
+        return this.edad;
     }
 
 

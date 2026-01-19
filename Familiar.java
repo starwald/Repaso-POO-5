@@ -15,11 +15,7 @@ public class Familiar extends Persona {
     }
 
     public int getTelefonoContacto() {
-        return numeroTel;
+        return this.getNumeroTel();
     }
 
-    public void setTelefonoContacto(int telefonoContacto) {
-        this.numeroTel = telefonoContacto;
-    }
-    
 }

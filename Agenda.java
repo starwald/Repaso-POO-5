@@ -13,12 +13,12 @@ public class Agenda {
 
     public void mostrarContactos() {
         for (Persona p : contactos) {
-            System.out.println("  Nombre: " + p.nombre + ", Edad: " + p.edad + ", Teléfono: " + p.numeroTel);
+            System.out.println("  Nombre: " + p.getNombre() + ", Edad: " + p.getEdad() + ", Teléfono: " + p.getNumeroTel());
         }
     }
 
     public void agendarVisita(Familiar familiar, PersonaMayor paciente){
-        System.out.println("  se agendó la visita del familiar " + familiar.nombre + " al paciente " + paciente.nombre);
+        System.out.println("  se agendó la visita del familiar " + familiar.getNombre() + " al paciente " + paciente.getNombre());
     }
     
 }

@@ -35,9 +35,9 @@ public class Cuidador extends Persona implements Trabajador {
     public void administrarMedicamento(PersonaMayor paciente){
         
         if(paciente.getMedicamentos()){
-            System.out.println("  El cuidador " + this.nombre + " ya le ha dado sus medicamentos a " + paciente.nombre);
+            System.out.println("  El cuidador " + this.getNombre() + " ya le ha dado sus medicamentos a " + paciente.getNombre());
         } else{
-            System.out.println("  El cuidador " + this.nombre + " le está administrando sus medicamentos a " + paciente.nombre + "........ Listo, se han administrado correctamente");
+            System.out.println("  El cuidador " + this.getNombre() + " le está administrando sus medicamentos a " + paciente.getNombre() + "........ Listo, se han administrado correctamente");
             paciente.setMedicamentos(true);
         }
     }
