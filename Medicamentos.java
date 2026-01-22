@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class Medicamentos {
-    private String nombre;
     private static ArrayList<String> listaMedicamentos;
 
 
@@ -14,17 +13,10 @@ public class Medicamentos {
     }  
 
 
-    public String getNombre() {
-        return nombre;
-    }
-
     public void agregarMedicamento(String nombreMedicamento){
         this.listaMedicamentos.add(nombreMedicamento);
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
 
     public static ArrayList<String> getListaMedicamentos() {
         return listaMedicamentos;
