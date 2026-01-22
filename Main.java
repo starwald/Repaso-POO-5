@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        
+
+        Medicamentos listaMedicamentos = new Medicamentos();
         Agenda agenda = new Agenda();
         
         // se crea al cuidador
@@ -37,5 +38,10 @@ public class Main {
         System.out.println("\nREPORTE DE LA AGENDA");
         agenda.mostrarContactos();
         System.out.println("");
+
+        System.out.println();
+
+        System.out.println(Medicamentos.getListaMedicamentos());
+
     }
 }
